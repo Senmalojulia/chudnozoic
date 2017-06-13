@@ -1,0 +1,1490 @@
+@import "./font/fontello.css";
+
+*{	
+	box-sizing: border-box;
+	text-decoration: none;
+	outline: none !important;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+}
+ @font-face {
+    font-family: KatonaIII; /* Гарнитура шрифта */
+    src: url(./Katona/KatonaIII.ttf); /* Путь к файлу со шрифтом */
+   }
+/******************************** ЛОГОТИП ********************************/
+.logo{
+	display: table;
+	width: 32%;
+	margin-left: 34%;
+	margin-right: 34%;
+	margin-top: 1%;
+}
+.logo-mobile {display: none;}
+.era {
+	display: table;
+	width: 22%;
+	margin-left: 39.2%;
+	margin-top: 0.2em;
+	margin-bottom: 0.3em;
+}
+.mazok1 {
+	position: absolute;
+	width: 17vw;
+	left: 18vw;
+	top: 3vw;
+}
+.mazok2 {
+	position: absolute;
+	width: 17vw;
+	right: 20vw;
+	top: 2vw;
+}
+/******************************** HEADER ********************************/
+
+.menu {position:relative;}
+.menu1 {
+	display: inline-table;
+	width: 7.2%;
+	margin-left: 39.8%;
+	margin-right: 6%;
+}
+.menu2 {
+	display: inline-table;
+	width: 7.2%;
+	position: absolute;
+	right: 40%;
+	top: 0;
+}
+.altermenu1 {
+	width: 20%;
+	position: absolute;
+	left: 32.2%;
+	top: 68.2%;
+}
+.mainlink {
+	font-family: KatonaIII;
+	font-size: 4.1vw;
+	position: absolute;
+	color: black;
+}
+.stihi {
+	top: 4vw;
+	left: 12vw;
+}
+.stihi:hover, .rasskazy:hover, .susch:hover, .prostr:hover {
+	color: red;
+}
+.rasskazy {
+	left: 15vw;
+	top: 12vw;
+}
+.altermenu2 {
+	width: 18.3%;
+	position: absolute;
+	right: 32.9%;
+	top: 80%;
+}
+.susch {
+	position: absolute;
+	left: 12vw;
+	top: 14vw;
+}
+.prostr {
+	left: 10vw;
+	top: 6vw;
+}
+.bird {
+	width: 5.5%;
+	display: block;
+	position: absolute;
+	right: 47.2%;
+	top: -12%;
+}
+.bird2 {
+	width: 5.5%;
+	display: block;
+	position: absolute;
+	right: 47.2%;
+	top: -12%;
+}
+ .me img.raz {opacity:0;filter:alpha(opacity=0);}
+  .me:hover img.raz,
+  .me:focus img.raz {opacity:1;filter:alpha(opacity=100);}
+  .me:hover img.dva, .me img.dva:hover,
+   .me:focus img.dva, .me img.dva:focus {opacity:0;filter:alpha(opacity=0);}
+
+.wrap1 {
+	display: table;
+	position: relative;
+	width: 25vw;
+	left: 25vw;
+}
+.wrap3, .wrap2 {
+	display: table;
+	position: relative;
+	width: 25vw;
+	left: 40vw;
+}
+/******************************** FIRST PAGE ПОЛОТНО ********************************/
+.page {
+	width: 70%;
+	margin-left: 15%;
+	margin-top: -1%;
+}
+
+/******************************** prostranstva ПРОСТРАНСТВА ********************************/
+.prostranstva{
+	position: relative;
+	top: 4vw;
+}
+.mazok9 {
+	position: absolute;
+	width: 11vw;
+	right: 27vw;
+	top: -4vw;
+	z-index: 999999;
+}
+.lands {
+	position: relative;
+	width: 19vw;
+	left: 41vw;
+	margin-bottom: 2.7vw;
+}
+.wrap {
+	position: relative;
+}
+.foto {
+	position: absolute;
+	width: 50vw;
+	left: 35vw;
+}
+.foto2 {
+	position: absolute;
+	left: -9vw;
+}
+
+.derevo1 {
+	position:absolute;
+	width: 13vw;
+	left: 7vw;
+	top: -2vw;
+}
+.derevo2 {
+	position:absolute;
+	width: 13vw;
+	left: 79vw;
+	top: -2vw;
+
+}
+.prostranstva .slide {
+	height: 32vw;
+	background-size: cover;
+	background-position: center;
+}
+.slick-prev:before, .slick-next:before {
+	color: black;
+}
+.prostranstva a {
+	font-family: KatonaIII;
+	font-size: 3vw;
+	position: absolute;
+	right: 13vw;
+	top: 35vw;
+	color: black;
+	font-weight: bold;
+}
+.prostranstva a:hover {color: red;}
+.arrow {
+	position: absolute;
+	top: 25%;
+	right: 0;
+	z-index: 999;
+	width: 10%;
+	height: 50%;
+}
+.arrow.prev {left: -5vw;}
+.arrow.next {right: -5vw;}
+nav a.active, nav a:hover, .likeus:hover, .unlikeus:hover, .links_creatures a.active {
+	text-decoration: underline;
+}
+
+/******************************* SOULS СУЩЕСТВА ***********************************/
+.souls {
+	position: relative;
+	top: 166vw;
+	
+}
+.mazok3 {
+	position: absolute;
+	width: 16vw;
+	right: 17vw;
+	top: -2vw;
+	z-index: 999;
+}
+.suschestva{
+	position: relative;
+	width: 13vw;
+	left: 45vw;
+	margin-bottom: 2.7vw;
+}
+.wrap3 {
+	position: relative;
+}
+.foto3 {
+	position: absolute;
+	left: -9vw;
+}
+
+.fotosoul {
+	position: absolute;
+	width: 50vw;
+	left: -5vw;
+}
+.fotosoul .slide {
+	height: 32vw;
+	background-size: cover;
+	background-position: center;
+}
+.creature {
+	position:absolute;
+	width: 15vw;
+	left: -35vw;
+}
+.creature2 {
+	position:absolute;
+	width: 12vw;
+	left: 40vw;
+}
+.souls a {
+	font-family: KatonaIII;
+	font-size: 3vw;
+	position: absolute;
+	right: -17vw;
+	top: 35vw;
+	color: black;
+	font-weight: bold;
+}
+.souls a:hover {color: red;}
+/************************РАССКАЗЫ*****************************/
+
+.tales {
+	position: relative;
+	top: 96vw;
+}
+.storylogo {
+	position: relative;
+	width: 12vw;
+	left: 44vw;
+	margin-bottom: 2.7vw;
+}
+.mazok8 {
+	position: absolute;
+	width: 12vw;
+	left: 12vw;
+	top: -2vw;
+	z-index: 999;
+}
+.stories {
+	position: absolute;
+	width: 72vw;
+	left: 14vw;
+}
+.stories .slide {
+	height: 50vw;
+	padding: 0.6vw;
+}
+
+.stories .slide:not(.slick-center) {transform: scale(0.9);}
+.stories .slide {transition: ease 0.5s;}
+
+.stories img {
+	width: 22vw;
+}
+.text {
+	width: 22vw;
+	font-size: 1.25vw;
+	text-align: justify;
+	color: black;
+	padding: 0.5em;
+}
+.moretales {
+	font-family: KatonaIII;
+	font-size: 3vw;
+	position: absolute;
+	right: 12vw;
+	top: 56vw;
+	color: black;
+	font-weight: bold;
+}
+.moretales:hover {color: red;}
+.stories .arrow {
+	width: 10%;
+	height: 40%;
+}
+.stories .arrow.prev {
+	left: -6vw;
+}
+
+/************************СТИХИ*****************************/
+.lyrichs {
+	position: relative;
+	top: 32vw;
+}
+.stihilogo {
+	position: relative;
+	width: 10vw;
+	left: 45vw;
+}
+.pole {
+	margin-top: -2vw;
+	z-index: 9999999999;
+}
+.pole img {
+	width: 74vw;
+	position: relative;
+	left: 13vw;
+}
+.mobile_stihi {display: none;}
+.morestihi {
+	font-family: KatonaIII;
+	font-size: 3vw;
+	position: absolute;
+	right: 27vw;
+	top: 44vw;
+	color: black;
+	font-weight: bold;
+}
+.morestihi:hover {color: red;}
+
+.pole a {
+	position: relative;
+	font-family: KatonaIII;
+	font-size: 3vw;
+	color: black;
+	font-weight: bold;
+}
+.pole a:hover {
+	color: red;
+}
+.pole .atom {
+	top: -22vw;
+	left: -12vw;
+}
+.pole .pes {
+	top: -33vw;
+	left: -13vw;
+}
+.pole .ice {
+	top: -35vw;
+	left: 40vw;
+}
+.pole .bembi {
+	top: -15vw;
+	left: 19vw;
+}
+.pole .gm {
+	top: -28vw;
+	left: 2vw;
+}
+.pole .appear {
+	top: -16vw;
+	left: 15vw;
+}
+
+/************************ФУТЕР*****************************/
+.details {
+	position: relative;
+	top: 153vw;
+	left: 15vw;
+	width: 70vw;
+	border-top: 0.22vw dashed;
+	border-color: black;
+}
+.detailslands {
+	position: relative;
+	top: 10vw;
+	left: 15vw;
+	width: 70vw;
+	border-top: 0.22vw dashed;
+	border-color: black;
+}
+.details a, .detailslands a {
+	font-size: 2.5vw;
+	color: black;
+	position: relative;
+	left: 50vw;
+	top: -4vw;
+	margin-right: 1vw;
+}
+.details a:hover, .detailslands a:hover {color: red;}
+.details p, .detailslands p {
+	position: relative;
+	top: 2vw;
+	width: 40vw;
+	font-size: 1.4vw;
+}
+
+
+
+/**************************СТИХИ ОТДЕЛЬНАЯ*********************************/
+
+.pagecut {
+	width: 77%;
+	margin-left: 11.9%;
+	margin-top: -1.28%;
+}
+.stihilogo2 {
+	position: relative;
+	width: 10vw;
+	left: 45vw;
+	margin-bottom: 2vw;
+	margin-top: -2vw;
+}
+.mazok14 {
+	width: 12vw;
+	position: absolute;
+	top: 4vw;
+	left: 24vw;
+}
+.sliderpoems {position: relative;}
+.stories.sliderpoems .slide {
+	height: 36vw;
+	padding: 0.6vw;
+}
+.vsestihi li {
+	list-style-image: url('./images/marker3.png');
+	font-family: KatonaIII;
+	font-size: 3vw;
+	font-weight: bold;
+}
+.vsestihi li a {
+	text-decoration: none;
+	color: black;
+}
+.vsestihi li a:hover {
+	color: #CD1076;
+}
+ 
+.mainstihi {
+	margin: 0vw auto;
+	position: relative;
+	font-size: 1.3vw;
+}
+.mainstihi div {
+	display: table;
+}
+.stihiwrap {
+	width: 70vw;
+	margin-left: 20vw;}
+
+.stihidetail {
+	top: 20vw;
+}
+#poem1 {
+	float: left;
+	margin-left: 4em;
+}
+#poem1img, #poem37img {
+	width: 16em;
+	margin-left: 4em;}
+
+#poem2 {float: right;}
+#poem2img {width: 16em;}
+
+#poem3img {
+	width: 28em;
+    margin-top: 7em;
+}
+
+#poem4, #poem9, #poem10, #poem52 {margin: 0 auto;}
+#poem50, #poem49 {
+	margin-top: 3em;
+}
+#poem4img {width: 30em;}
+#poem52img {
+	width: 50em;
+	margin: 0 auto;
+}
+#poem5img {
+	width: 19em;
+    margin-top: 10em;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#poem6 {float: right;}
+#poem6img {
+    width: 20em;
+    margin: 8em 0;
+}
+
+#poem7img {
+	width: 20em;
+	margin: 6em 0;
+}
+
+#poem8img, #poem38img {
+	width: 23em;
+	margin: 6em 0;
+}
+
+#poem9img {width: 25em;}
+
+#poem10img {
+	width: 32em;
+}
+#poem49img {
+	width: 26em;
+	margin-left: 4em;
+}
+#poem50img  {
+	width: 20em;
+	margin: 1em 4em;
+}
+
+#poem11img, #poem32img, #poem39img {
+    width: 18em;
+    margin: 3em 0;
+}
+#poem39img2 {
+	width: 20em;
+	position: relative;
+	top: -10em;
+}
+
+#poem12 {float: right;}
+#poem12img, #poem34img {
+	width: 18em;
+    margin: 3em 0;
+}
+#poem13img {
+	width: 18em;
+    margin: 7em 0;
+}
+
+#poem14, #poem40 {
+	margin: 0 auto;
+	position: relative;}
+#poem14img {
+    width: 18em;
+    position: absolute;
+    margin: 0;
+    left: -20em;
+    top: 50em;
+}
+#poem14_2img {
+    width: 18em;
+    position: absolute;
+    margin: 0;
+    left: 20em;
+    top: 20em;
+}
+#poem15, #poem51 {margin: 0 auto;}
+#poem15img {
+	width: 32em;
+}
+#poem16, #poem48 {float: right;}
+#poem16img {width: 13em;}
+
+#poem17img {
+	width: 13em;
+	margin-left: 10em;
+}
+
+#poem3, #poem5, #poem7, #poem8, #poem11, 
+#poem13, #poem17, #poem19, #poem34, #poem49, #poem50 {float: left;}
+
+#poem19img {
+	width: 23em;
+	position: relative;
+	top: 10em;
+}
+#poem20img {
+	width: 15em;
+    margin: 2em 0;
+}
+#poem23img {
+	width: 22em;
+}
+#poem20, #poem32 {
+	float: right;
+	position: relative;
+	right: 10em;
+}
+#poem24, #poem27, #poem30, #poem36, #poem38, #poem46 {
+	float: right;
+	position: relative;
+	right: 8em;
+}
+#poem24img, #poem30img, #poem36img, #poem48img  {
+	width: 28em;
+    margin: 2em 0;
+}
+#poem25, #poem23, #poem39 {float: left;}
+#poem25img, #poem27img {
+	width: 22em;
+	position: relative;
+	top: 7em;
+}
+#poem28 {
+	float: left;
+	position: relative;
+	left: 10em;
+}
+#poem28img {
+	width: 16em;
+	position: relative;
+	left: 12em;
+	top: 4em;
+}
+
+#poem21, #poem37 {float: left;}
+
+#poem18, #poem22, #poem26, #poem29, #poem33, #poem35, #poem47 {
+	margin: 0 auto;
+	position: relative;}
+/**************************РАССКАЗЫ ОТДЕЛЬНАЯ*********************************/
+
+.pagecut_rasskazy {
+	width: 70%;
+	margin-left: 14.5%;
+	margin-top: -1%;
+}
+.rasskazlogo2 {
+	position: relative;
+	width: 12vw;
+	left: 43vw;
+	margin: 3vw 0vw;
+}
+.rowtales {
+	margin-left: 9vw;
+}
+.rowtales img {
+	width: 16vw;
+	margin-left: 3vw;
+	padding: 2vw;
+	box-shadow: 0vw 0.7vw 0.8vw 0.1vw #ccc;
+}
+.rowtales img:hover {
+	box-shadow: 0vw 0.7vw 1vw 0.4vw #ccc;
+}
+
+#slider {
+	margin: 2vw 0vw 0vw 12vw;
+	width: 76vw;
+ }
+.head {
+ width: 70vw;
+ margin-top: 1vw;
+ cursor: pointer;
+ text-align: center;
+ position: relative;
+ }
+.head:hover {
+ }
+.content {
+ overflow: hidden;
+ }
+.allwords {
+ width: 70vw;
+ padding: 2vw;
+ text-align: left;
+ font-size: 1.4vw;
+ }
+ 
+ .head img {
+ 	width: 74vw;
+ }
+
+ .head p {
+ 	font-family: KatonaIII;
+	font-size: 6vw;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	text-shadow: 0 0 2vw #000, 0 0 1vw #000;
+	padding: 1vw;
+	z-index: 99999;
+	top: 1vw;
+ }
+.head.plot p {
+	left: 32vw;
+}
+.head.serebro p {
+	left: 17vw;
+}
+.head.cherepaha p{
+	left: 17vw;
+}
+.head.chelovek p{
+	top: 2vw;
+	left: 27vw;
+}
+.details.tales{
+	position: relative;
+	top: 10vw;
+	left: 15vw;
+	width: 70vw;
+	border-top: 0.22vw dashed;
+	border-color: black;
+}
+
+/**************************СУЩЕСТВА ОТДЕЛЬНАЯ**************************/
+
+.pagecut_creatures {
+	width: 70%;
+	margin-left: 15.3%;
+	margin-top: -1%;
+}
+.mazok11 {
+	width: 17vw;
+	position: absolute;
+	top: 2vw;
+	left: 23vw;
+}
+.suschestvalogo {
+	position: relative;
+	width: 14vw;
+	left: 42vw;
+	top: -3vw;
+}
+.suschestvalogo2, .suschestvalogo3 {
+	position: relative;
+	width: 14vw;
+	left: 42vw;
+}
+.vsesuschestva {
+	position: relative;
+	top: 5vw;
+}
+.vsesuschestva p {
+	position: absolute;
+	z-index: 99999;
+	font-family: KatonaIII;
+	font-size: 6vw;
+	color: #fff;
+	text-shadow: 0 0 2vw #000, 0 0 1vw #000;
+}
+.likeus1 {
+	left: 44vw;
+	top: 5vw;
+}
+.notlikeus1 {
+	left: 40vw;
+	top: 26vw;
+}
+.kakmyline, .nekakmyline  {
+	position: absolute;
+	width: 70vw;
+	left: 15vw;
+}
+.kakmyline {
+	padding: 1.2vw;
+	box-shadow: 0vw 0vw 2vw 0.1vw #ccc;
+	top: 5vw;
+}
+.nekakmyline {
+	top: 25vw;
+	padding: 1.2vw;
+	box-shadow: 0vw 0vw 2vw 0.1vw #ccc;
+}
+.kakmyline:hover, .nekakmyline:hover {
+	box-shadow: 0vw 0.7vw 1vw 0.4vw #ccc;
+}
+.details.susch {
+	top: 60vw;
+}
+
+/**************************ПРОСТРАНСТВА ОТДЕЛЬНАЯ**************************/
+.pagecut_prostranstva {
+	width: 74%;
+	margin-left: 13.3%;
+	margin-top: -1%;
+}
+.pagecut_prostranstva2 {
+	width: 72%;
+	margin-left: 13.4%;
+	margin-top: -1.4%;
+
+}
+.mazok12 {
+	width: 13vw;
+	position: absolute;
+	top: 4vw;
+	right: 23vw;
+}
+.prostranstvalogo, .prostranstvalogo1 {
+	position: relative;
+	width: 18vw;
+	left: 41vw;
+	top: -1vw;
+}
+.modul {
+	cursor:pointer;
+	position: relative;}
+
+.line {
+	position: relative;
+	width: 60vw;
+	left: 20vw;
+	padding: 1.2vw;
+	box-shadow: 0vw 0vw 2vw 0.1vw #ccc;
+	margin: 1vw 0vw;
+}
+.line:hover {
+	box-shadow: 0vw 0.7vw 1vw 0.4vw #ccc;
+} 
+.vseprostranstva {
+	position: relative;
+}
+.vseprostranstva p {
+	position: absolute;
+	left: 45vw;
+	z-index: 99999;
+	font-family: KatonaIII;
+	font-size: 6vw;
+	color: #fff;
+	text-shadow: 0 0 2vw #000, 0 0 1vw #000;
+	top: -16vw; /** изменить для моб устр-в*/
+}
+#ug {
+	left: 48vw;
+}
+.link {
+	font-family: KatonaIII;
+	font-size: 4vw;
+	color: white;
+	position: absolute;
+	font-weight: bolder;
+	z-index: 99999;
+}
+.sev {
+	left: 20vw;
+	top: 30vw;
+}
+.yug {
+	top: 42vw;
+	right: 24vw;
+}
+.ngd {
+	top: 26.5vw;
+	right: 26.5vw;
+}
+.vzd {
+	top: 36vw;
+	left: 25vw;
+}
+.mjd {
+	top: 41vw;
+	left: 48vw;
+}
+.mazok5 {
+	width: 15vw;
+	position: absolute;
+	top: 32vw;
+	right: 23vw;
+}
+.mazok6 {
+	width: 15vw;
+	position: absolute;
+	top: 3vw;
+	left: 23vw;
+}
+
+/**************ПОЧТИ КАК МЫ*******************************/
+.links_creatures {
+	position: absolute;
+	top: 37vw;
+}
+.links_creatures a {
+	position: relative;
+	color: white;
+}
+.likeus {
+	left: 27vw;
+}
+.unlikeus {
+	left: 51vw;
+}
+/**************ОБО МНЕ*******************************/
+
+.mazok_me {
+	width: 10vw;
+	position: absolute;
+	right: 25vw;
+	top: 22vw;
+}
+.pagecut_me {
+	width: 69.8%;
+	margin-left: 14.5%;
+	margin-top: -1.2%;
+}
+.mefoto {
+	width: 33vw;
+	left: 5vw;
+	top: -10vw;
+	z-index: -9;
+}
+.mefoto2 {
+	width: 20vw;
+	left: 38vw;
+	top: 33vw;
+	position: absolute !important;
+}
+.am {
+	top: 65vw !important;
+}
+.aboutme {
+	max-height: 65vw;
+	position: absolute;
+}
+.aboutme div, .aboutme img {
+	position: relative;
+}
+.me1 {
+	top: -30vw;
+	left: 43vw;
+	font-size: 1.5vw;
+}
+.me2 {
+	top: -39vw;
+	left: 29vw;
+	font-size: 1.2vw;
+}
+.me3 {
+	top: -36vw;
+	left: 40vw;
+	font-size: 1.1vw;
+}
+.me4 {
+	top: -34vw;
+	left: 14vw;
+	font-size: 1.2vw;
+}
+.me5 {
+	top: -50vw;
+	left: 70vw;
+	font-size: 1.2vw;
+}
+.me6 {
+	top: -86vw;
+	left: 72vw;
+	font-size: 1.1vw;
+}
+.me8 {
+	top: -83vw;
+	left: 67vw;
+	font-size: 1.1vw;
+}
+.me7 {
+	top: 5vw;
+	right: -58vw;
+	font-size: 1.1vw;
+	position: absolute !important;
+}
+.me9 {
+	top: -58vw;
+	left: 20vw;
+	font-size: 1.1vw;
+}
+.me10 {
+	top: -90vw;
+	left: 52vw;
+	font-size: 1.1vw;
+}
+.me11 {
+	top: -90vw;
+	left: 62vw;
+	font-size: 1.1vw;
+}
+/******************************************************************************************************************/
+/**************************** MEDIA ПЕРВАЯ СТРАНИЦА*******************************************************************************/
+/******************************************************************************************************************/
+
+@media ( max-width: 420px) {
+.logo {
+	display: table;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 4%;
+}
+.logo-mobile {
+	display: table;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 4%;}
+.era {
+	display: table;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+}
+.menu1 {
+	display: inline-table;
+	width: 20%;
+	margin-left: 23%;
+}
+.menu2 {
+	width: 20%;
+	right: 23%;
+	z-index: 99999;
+}
+.bird, .bird2  {
+	width: 16%;
+	right: 41%;
+	top: -16%;
+}
+.pagecut_me, .pagecut_rasskazy, .pagecut_creatures, .page, .derevo1, .derevo2, .mazok1, .creature, .creature2, .pagecut_prostranstva {
+	display: none;
+} 
+.altermenu1 {
+	width: 46%;
+	left: 9%;
+	top: 128%;
+}
+.altermenu2 {
+	width: 42%;
+	right: 11%;
+	top: 141%;
+}
+.stihi {
+	top: 17vw;
+	left: 0vw;
+}
+.rasskazy {
+	left: 4vw;
+	top: 34vw;
+}
+.susch {
+	left: 17vw;
+	top: 38vw;
+}
+.prostr {
+	left: 13vw;
+	top: 21vw;
+}
+.mainlink {
+	font-family: KatonaIII;
+	font-size: 9vw;
+	position: absolute;
+	color: black;
+}
+.mazok2 {
+	width: 32vw;
+	right: 3vw;
+	top: 26vw;
+	z-index: 999;
+}
+.lands {
+	width: 42vw;
+	left: 29vw;
+}
+.mazok9 {
+	width: 23vw;
+	left: 6vw;
+	top: -8vw;
+}
+.prostranstva .slide, .fotosoul .slide {
+	width: 100%;
+	height: 34vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.foto {
+	position: absolute;
+	width: 90vw;
+	left: 5vw;
+}
+.fotosoul {
+	position: absolute;
+	width: 90vw;
+	left: -35vw;
+}
+.foto2, .foto3 {left: 0vw;}
+
+.lyrichs {top: 65vw;}
+.tales {top: 270vw;}
+.souls {top: 420vw;}
+.details {top: 310vw;}
+/************************* МЕДИА СТИХИ***********************/
+.stihilogo {
+	width: 19vw;
+	left: 40.5vw;
+}
+.pole img {
+	width: 100vw;
+	left: 0vw;
+}
+.storylogo {
+	width: 28vw;
+	left: 37vw;
+}
+.suschestva {
+	width: 29vw;
+	left: 35.5vw;
+}
+.prostranstva a {
+	font-size: 7vw;
+	right: 1vw;
+	top: 65vw;
+}
+.desktop_stihi {display: none;}
+.mobile_stihi {display: block;}
+.pole a {
+	font-size: 8vw;
+}
+.pole .atom {
+	top: -87vw;
+	left: 8vw;
+}
+.pole .pes {
+	top: -45vw;
+	left: 33vw;
+}
+.pole .ice {
+	top: -135vw;
+	left: -15vw;
+}
+.pole .bembi {
+	top: -65vw;
+}
+.pole .gm {
+	top: -32vw;
+}
+.pole .appear {
+	top: -110vw;
+	left: -9vw;
+}
+.morestihi {
+	font-size: 8vw;
+	top: 168vw;
+	right: 3vw;
+}
+/************************* МЕДИА СУЩЕСТВА***********************/
+.souls a {
+	font-size: 8vw;
+	right: -32vw;
+	top: 65vw;
+}
+.mazok3, {
+	width: 26vw;
+	right: 7vw;
+	top: -6vw;
+}
+
+
+/************************* МЕДИА РАССКАЗЫ**********************/
+.mazok8 {
+	width: 26vw;
+	left: 2vw;
+	top: -14vw;
+	z-index: 999;
+}
+.stories {
+	position: absolute;
+	width: 72vw;
+	left: 20vw;
+}
+.stories .slide {
+	height: 100vw;
+	padding: 0.6vw;
+}
+.stories .slide:not(.slick-center) {transform: scale(0.9);}
+.stories .slide {transition: ease 0.5s;}
+
+.stories img {
+	width: 60vw;
+}
+.text {
+	width: 60vw;
+	font-size: 3vw;
+	padding: 0.5em;
+}
+.moretales {
+	font-size: 8vw;
+	position: absolute;
+	right: 4vw;
+	top: 120vw;
+}
+.stories .arrow {
+	width: 15%;
+	height: 30%;
+}
+.stories .arrow.prev {
+	left: -17vw;
+}
+/************************* МЕДИА ФУТЕР**********************/
+.details {
+	left: 10vw;
+	width: 80vw;
+	border-top: 0.5vw dashed;
+}
+.detailslands {
+	top: 10vw;
+	left: 10vw;
+	width: 80vw;
+	border-top: 0.5vw dashed;
+}
+.details a, .detailslands a {
+	font-size: 7vw;
+	color: black;
+	left: 50vw;
+	top: -15vw;
+	margin-right: 1vw;
+}
+.details a:hover, .detailslands a:hover {color: red;}
+.details p, .detailslands p {
+	position: relative;
+	top: 2vw;
+	width: 40vw;
+	font-size: 3vw;
+}
+/************************* МЕДИА СТИХИ ОТДЕЛЬНАЯ*****************/
+.pagecut {display: none;}
+.stihilogo2 {
+	width: 20vw;
+	left: 40vw;
+	margin-top: 2vw;
+}
+.sliderpoems {position: relative;}
+.stories.sliderpoems {
+	width: 50vw;
+	left: 32vw;
+}
+.stories.sliderpoems .slide {
+	height: 70vw;
+	padding: 0.6vw;
+}
+.mazok14 {
+	width: 22vw;
+	position: absolute;
+	top: 28vw;
+	left: 6vw;
+}
+.vsestihi li {
+	list-style-image: url('./images/marker3.png');
+	font-size: 6vw;
+}
+.mainstihi {
+	width: 90vw;
+	position: relative;
+	font-size: 3vw;
+}
+
+.stihiwrap {
+	margin: 0;
+}
+.stihiwrap div, .stihiwrap img {
+	margin: 0 !important;
+	float: none !important;
+}
+.stihidetail {
+	top: 20vw;
+}
+#poem14img, #poem14_2img, #poem8img, #poem39img2, #poem28img {display: none;}
+#poem1, #poem52 {
+	margin: 0 auto !important;
+}
+#poem10 {font-size: 2.9vw;}
+#poem15 {font-size: 2.96vw;}
+#poem1img {margin-left: 6em !important;}
+#poem19img, #poem27img, #poem25img {
+	width: 23em;
+	margin-left: 10em;
+	position: unset;
+}
+#poem20, #poem24, #poem30, #poem27, #poem32, #poem36, #poem38, #poem46 {
+	position: unset;
+}
+#poem28, #poem35 {
+	float: left;
+	position: relative;
+	left: 6em;
+}
+ #poem50img  {
+	width: 24em;
+	position: relative;
+	left: 3em;
+}
+#poem52img {
+	width: 30em;
+}
+#poem1, #poem2, #poem3, #poem6, #poem8, #poem12, #poem14, #poem16, #poem17, #poem18, #poem19, #poem20,
+#poem21, #poem22, #poem23, #poem24, #poem25, #poem26, #poem27, #poem52, #poem51, #poem50,
+#poem49,  #poem47, #poem48, #poem28, #poem30, #poem33, #poem35, #poem36, #poem37, #poem38,
+#poem39, #poem40, #poem46, #poem32 {
+	font-size: 4vw;
+}
+#poem9, #poem34, #poem29, #poem18, #poem32, #poem25, #poem16 {
+	font-size: 3.5vw !important;
+}
+#poem4, #poem5, #poem7, #poem11, #poem13, #poem31 {
+	font-size: 3vw !important;
+}
+
+/************************* МЕДИА РАССКАЗЫ ОТДЕЛЬНАЯ*****************/
+.rasskazlogo2 {
+	width: 24vw;
+	left: 38vw;
+}
+.rowtales {
+	margin-left: 12vw;
+}
+.rowtales img {
+	width: 32vw;
+	margin: 2vw;
+	padding: 2vw;
+}
+.allwords {
+	font-size: 3.4vw;
+}
+/************************* МЕДИА ПРОСТРАНСТВА ОТДЕЛЬНАЯ*****************/
+.prostranstvalogo {
+	width: 38vw;
+	left: 30vw;
+	top: -10vw;
+}
+.prostranstvalogo1 {
+	position: relative;
+	width: 38vw;
+	left: 30vw;
+}
+.vseprostranstva p {
+	font-size: 12vw;
+	left: 40vw;
+	top: -23vw;
+}
+
+.line {
+	width: 80vw;
+	left: 10vw;
+}
+#ug {
+	left: 45vw;
+}
+.firstpage .link {
+	color: grey;
+	font-size: 8vw;
+	left: 0vw;
+	right: 0vw;
+	top: 10vw;
+	position: relative;
+	font-family: KatonaIII;
+	font-weight: bolder;
+	padding: 1.2vw;
+	box-shadow: 0vw 0vw 2vw 0.1vw #ccc;
+	margin-left: 5vw;
+}
+.mazok6 {
+	width: 24vw;
+	top: 26vw;
+	left: 4vw;
+}
+.mazok12 {
+	width: 23vw;
+	top: 13vw;
+	right: 1vw;
+}
+/************************* МЕДИА СУЩЕСТВА ОТДЕЛЬНАЯ***********************/
+
+.mazok11 {
+	width: 34vw;
+	top: 11vw;
+	left: 1vw;
+	z-index: -999999;
+}
+.links_creatures {
+	position: absolute;
+	top: 110vw;
+	left: 7vw;
+	margin: 2vw 14vw;
+}
+.suschestvalogo {
+	position: relative;
+	width: 27vw;
+	left: 34vw;
+}
+.suschestvalogo2, .suschestvalogo3 {
+	position: relative;
+	width: 28vw;
+	left: 36vw;
+	margin-bottom: 12vw;
+}
+.kakmyline, .nekakmyline {
+	width: 90vw;
+	left: 5vw;
+}
+.kakmyline {
+	top: 12vw;
+}
+.nekakmyline {
+	top: 40vw;
+}
+.vsesuschestva p  {font-size: 12vw;}
+
+.likeus1 {
+	left: 40vw;
+	top: 4vw;
+}	
+.notlikeus1 {
+	left: 30vw;
+	top: 33vw;
+}
+.details.susch {top: 80vw;}
+
+
+
+/************************* МЕДИА ОБО МНЕ***********************/
+
+.mazok_me {
+	width: 20vw;
+	position: absolute;
+	right: 6vw;
+	top: 13vw;
+	z-index: 99999;
+}
+
+.mefoto {
+	width: 80vw;
+	margin: 0 6vw;
+}
+.mefoto2 {
+	width: 28vw;
+	left: 62vw;
+	top: 31vw;
+	position: absolute !important;
+}
+.aboutme{
+	left: 6vw;
+}
+.aboutme div, .aboutme img {
+	position: unset;
+	font-size: 4vw;
+}
+
+.am {
+	top: 560vw !important;
+}
+.me7 {
+	position: unset !important;
+}
+.me1 {
+	font-weight: bold;
+	margin: 0 11vw;
+}
+.me3, .me5, .me7, .me9, .me11 {
+	margin: 8vw 11vw;
+}
+
+}
+
+@media (min-width: 768px ) {}
+@media (min-width: 1024px ) {}
+@media (min-width: 1280px ) {}
+@media (min-width: 1600px ) {}
+@media (min-width: 1920px ) {}
